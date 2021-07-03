@@ -169,7 +169,7 @@ namespace Catalog.UnitTests
             //Then
             foundItems.Should().OnlyContain(
                 item => item.Name == allItems[0].Name || item.Name == allItems[2].Name
-            );
+            ); 
         }
 
         private Item CreateRandomItem()
